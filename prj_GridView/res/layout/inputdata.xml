@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTimeBegin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Begin"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		<TextView
+			 android:id="@+id/tvTimeBeginInput"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:clickable="true"
+			 android:onClick="onclick"
+			 android:text=""
+			 android:textSize="22sp">
+		</TextView>							
+	</LinearLayout>
+	
+    <LinearLayout
+		android:id="@+id/linearLayout3"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time End"
+            android:textAppearance="?android:attr/textAppearanceSmall" />        
+        <TextView
+			 android:id="@+id/tvTimeEndInput"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:clickable="true"
+			 android:onClick="onclick"
+			 android:text=""
+			 android:textSize="22sp">
+		</TextView>			
+    </LinearLayout>
+    
+    <LinearLayout
+		android:id="@+id/linearLayout4"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceSmall" />        
+        <TextView
+			 android:id="@+id/tvDescriptionInput"
+			 android:layout_width="fill_parent"
+			 android:layout_height="wrap_content"
+			 android:clickable="true"
+			 android:onClick="onclick"
+			 android:text=""
+			 android:textSize="22sp">
+		</TextView>			
+    </LinearLayout>
+    
+    <Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Create Record"
+			android:id="@+id/btnCreateRecord">
+		</Button>		
+</LinearLayout>
